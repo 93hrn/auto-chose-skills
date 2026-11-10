@@ -1,0 +1,8 @@
+name: auto-chose-skill
+version: 0.2.0
+description: Silent task-entry router — picks the right installed skill/plugin and calls it directly, without asking or announcing.
+author: auto-chose-skill
+provides_hooks:
+  - pre_llm_call
+provides_commands:
+  - auto-chose
